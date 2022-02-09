@@ -1,0 +1,22 @@
+{
+  "name": "discordbotapi",
+  "version": "1.0.0",
+  "description": "API for Discord Bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/japsimrans13/GDSC-RAIT-DiscordBotAPI-psychHack.git"
+  },
+  "author": "Japsimran Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japsimrans13/GDSC-RAIT-DiscordBotAPI-psychHack/issues"
+  },
+  "homepage": "https://github.com/japsimrans13/GDSC-RAIT-DiscordBotAPI-psychHack#readme",
+  "dependencies": {
+    "fastify": "^3.27.1"
+  }
+}
