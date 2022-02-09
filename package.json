@@ -18,6 +18,7 @@
     },
     "homepage": "https://github.com/japsimrans13/GDSC-RAIT-DiscordBotAPI-psychHack#readme",
     "dependencies": {
+        "@vercel/node": "^1.12.1",
         "fastify": "^3.27.1"
     }
 }
