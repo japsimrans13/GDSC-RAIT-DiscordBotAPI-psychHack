@@ -6,7 +6,8 @@ fastify.get('/', async (request, response) => {
     response.send({ hello: 'everything still fine' });
   })
 
-  
+// TO DO : categorize people on the base of username
+// To DO : Show response according to the category
 let greetings = [
     { message: "Hello! How can I help you?" },
     { message: "Hello! How are you doing? I will be assisting you today." },
@@ -16,8 +17,10 @@ let greetings = [
 
 // GET /greeting
 fastify.get('/greetings', async (request, response) => {
-    //Returns array of greetings
-    response.send(greetings);
+    // Return a random element of the array
+    rand_index = Math.floor(Math.random()*greetings.length);
+    const greeting = greetings[rand_index];
+    response.send(greeting);
  });
 
  // Run the server!
